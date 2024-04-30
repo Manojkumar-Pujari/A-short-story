@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance of the Heart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #story {
+            display: none;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Distance of the Heart</h1>
+        <button id="showStory">Read the Story</button>
+        <div id="story">
+            <p>In a small town nestled between rolling hills, there lived a boy named Adam. Adam was a quiet, introverted soul who found solace in the pages of his books and the melodies of his guitar. But amidst his solitude, there was a yearning—a yearning that he could never quite put into words.</p>
+
+            <p>That yearning had a name—Emily. She was the girl from the neighboring state, with eyes like the summer sky and a smile that could melt the hardest heart. Adam had first seen her at a local fair, where she had been visiting relatives. From that moment on, she became the silent muse of his days, the whispered dreams of his nights.</p>
+
+            <p>Though Adam longed to speak to her, to pour out the words that danced within his heart, he couldn't muster the courage. He watched her from afar, weaving stories of their imagined conversations in the quiet corners of his mind.</p>
+
+            <p>Days turned into weeks, and weeks into months, but Adam's love for Emily only grew stronger. He wrote her letters he'd never send, pouring his soul onto paper in the hopes that somehow, she would know. But the distance between them seemed insurmountable—a gaping chasm that he couldn't bridge.</p>
+
+            <p>As time passed, Emily returned to her home state, leaving Adam with nothing but memories and unspoken words. The ache in his heart deepened, knowing that she was now beyond his reach, separated by miles and state lines.</p>
+
+            <p>But even in her absence, Adam's love remained steadfast. He found solace in the strumming of his guitar, composing melodies that spoke of longing and love lost. And though he never uttered her name aloud, she remained the silent refrain in every song he sang.</p>
+
+            <p>For Adam knew that even if they could never meet again, even if their paths never crossed, his love for Emily would endure—a beacon of light in the darkness, a testament to the power of love.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('showStory').addEventListener('click', function() {
+            document.getElementById('story').style.display = 'block';
+            document.getElementById('showStory').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
